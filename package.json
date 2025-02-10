@@ -1,0 +1,23 @@
+{
+  "name": "wedriverio_framework",
+  "version": "1.0.0",
+  "description": "webdriver io pom framework",
+  "main": "index.js",
+  "scripts": {
+  
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [
+    "webdriverio",
+    "pom",
+    "framework"
+  ],
+  "author": "mashiat",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.6.3",
+    "@wdio/cli": "^9.8.0",
+    "@wdio/local-runner": "^9.8.0",
+    "@wdio/mocha-framework": "^9.7.3"
+  }
+}
