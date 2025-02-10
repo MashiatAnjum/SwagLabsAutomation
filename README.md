@@ -65,18 +65,11 @@ npm run getreport
 
 # Troubleshooting
 
-### 1. WebDriverIO Command If not work?
+### 1. If WebDriverIO Command not work?
 Run WebDriverIO:
 ```bash
 npx wdio wdio.conf.js
-```
 
-### 2. Allure Command Not Found?
-Install Allure globally:
-Allure requires Java 8 or higher
-```bash
-npm install -g allure-commandline --save-dev
-```
 
 
 
