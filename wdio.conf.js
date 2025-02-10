@@ -1,6 +1,7 @@
 
-//const question1 = "./test/specs/Q1.js";
+const question1 = "./test/specs/Q1.js";
 const question2 = "./test/specs/Q2.js";
+const question3 = "./test/specs/Q3.js";
 exports.config = {
     //
     // ====================
@@ -24,7 +25,7 @@ exports.config = {
     // of the config file unless it's absolute.
     //
     specs: [
-        question2
+        question1,question2,question3
     ],
     // Patterns to exclude.
     exclude: [
